@@ -1,6 +1,7 @@
 {% extends "polls/base.html" %}
 
 {%block content%}
+<br><br><h1>Question and Choices</h1><hr>
 <h1>{{ question.question_text }}</h1>
 
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
